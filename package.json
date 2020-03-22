@@ -1,0 +1,11 @@
+{
+  "name": "room-of-requirement",
+  "version": "0.0.0",
+  "private": true,
+  "author": "artistguildslack@rrichardsonv.com",
+  "description": "A simple helpful robot for your Company",
+  "dependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  }
+}
