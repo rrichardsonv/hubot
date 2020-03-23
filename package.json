@@ -8,7 +8,8 @@
     "hubot": "latest",
     "hubot-heroku-keepalive": "^1.0.3",
     "hubot-plusplus": "^1.4.0",
-    "hubot-slack": "^4.7.1"
+    "hubot-slack": "^4.7.1",
+    "twitch-webhook": "git://github.com/rrichardsonv/node-twitch-webhook.git"
   },
   "engines": {
     "node": "12.13.x"
