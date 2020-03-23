@@ -9,7 +9,7 @@ function mapObject(obj, keyMapper = (k, _) => k, mapper = (_, v) => v) {
   }, {});
 }
 
-function filterOrEmpty(k, v, sensitive) {
+function filterOrEmpty(k, v, sensitive = ['client_id', 'secret']) {
   let visibleValue = v
   if (k in sensitive) {
     if (v === "" || !v) {
